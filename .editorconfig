@@ -1,0 +1,18 @@
+# EditorConfig is awesome: https://EditorConfig.org
+
+# top-most EditorConfig file
+root = true
+
+[*.{js,ts,cjs,json,md}]
+end_of_line = lf
+charset = utf-8
+indent_style = tab
+indent_size = 4
+trim_trailing_whitespace = true
+insert_final_newline = true
+# doesn't appear in EditorConfig site, but Prettier says to honors it
+max_line_length = 80
+
+# Indentation override for HTML
+[*.html]
+indent_size = 2
